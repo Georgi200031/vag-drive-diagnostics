@@ -1,131 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VAG Drive Diagnostics - Privacy Policy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | VAG Drive Diagnostics</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --text: #f8f8f8;
+      --muted: #c0c2c7;
+      --accent: #ffa44b;
+      --border: #35373d;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #101113;
+      color: var(--text);
+      font: 1rem/1.7 system-ui, sans-serif;
+    }
+
+    header {
+      background: radial-gradient(ellipse at top right, #422918, transparent 60%), #17181b;
+      border-bottom: 2px solid #f58220;
+    }
+
+    .wrap {
+      max-width: 780px;
+      margin: auto;
+      padding: clamp(1.25rem, 5vw, 3rem);
+    }
+
+    .brand {
+      color: var(--accent);
+      font-size: .8rem;
+      font-weight: 750;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: .6rem 0 1rem;
+      font-size: clamp(2.15rem, 7vw, 3.6rem);
+      line-height: 1.08;
+    }
+
+    h2 { margin: 0 0 .45rem; font-size: 1.16rem; }
+    p { margin: .35rem 0 .8rem; color: var(--muted); }
+
+    section {
+      margin-bottom: 1rem;
+      padding: 1.25rem 1.4rem;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #181a1e;
+    }
+
+    section p:last-child { margin-bottom: 0; }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: .22em;
+      overflow-wrap: anywhere;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+
+    footer { border-top: 1px solid var(--border); color: var(--muted); }
+
+    footer .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-block: 1.25rem;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <div class="wrap">
+      <div class="brand">VAG Drive Diagnostics</div>
+      <h1>Privacy Policy</h1>
+      <p>How the app handles vehicle data, device access, and advertising.</p>
+    </div>
+  </header>
 
-<h1>Privacy Policy for VAG Drive Diagnostics</h1>
+  <main class="wrap">
+    <section>
+      <h2>Information we collect</h2>
+      <p>The app does not require an account and does not ask for your name,
+        address, phone number, or contacts.</p>
+    </section>
 
-<p>Last updated: September 3, 2026</p>
+    <section>
+      <h2>Vehicle diagnostic data</h2>
+      <p>The app uses a compatible OBD-II adapter to read information such as
+        diagnostic trouble codes, live sensor values, readiness monitors, and
+        vehicle voltage. It uses this information to display diagnostic results
+        and provide diagnostic features. Core diagnostics do not require this
+        information to be uploaded to an external server.</p>
+    </section>
 
-<p>
-VAG Drive Diagnostics is an automotive diagnostic application designed
-to communicate with compatible OBD-II adapters and retrieve diagnostic
-information from a vehicle.
-</p>
+    <section>
+      <h2>Bluetooth and Wi-Fi</h2>
+      <p>The app uses Bluetooth permissions to discover or access paired devices
+        and communicate with the adapter you select. It can also use the local
+        Wi-Fi network to exchange commands and diagnostic information with a
+        compatible adapter.</p>
+    </section>
 
-<h2>Information We Collect</h2>
+    <section>
+      <h2>Local storage and sharing</h2>
+      <p>Fault history and preferences may be stored on your device. The developer
+        does not sell personal data or intentionally transmit vehicle diagnostic
+        data to third parties. If you use the sharing feature, diagnostic
+        information is sent to the app or service you choose.</p>
+    </section>
 
-<p>
-VAG Drive Diagnostics does not require users to create an account.
-The application does not intentionally collect personal information
-such as your name, address, phone number, or contacts.
-</p>
+    <section>
+      <h2>Advertising</h2>
+      <p>Versions of the app with advertising enabled use Google AdMob to display
+        ads. The Google Mobile Ads SDK may process IP addresses, device identifiers,
+        app interactions, and diagnostic or performance information about the SDK
+        for advertising, analytics, and fraud prevention. This SDK diagnostic
+        information is separate from your vehicle's OBD-II readings.</p>
+      <p>Where required, the app requests consent before requesting ads. If Google
+        makes privacy options available, you can reopen them in Settings.
+        See <a href="https://policies.google.com/technologies/partner-sites">how Google
+        uses information from apps that use its services</a>.</p>
+    </section>
 
-<h2>Vehicle Diagnostic Data</h2>
+    <section>
+      <h2>Children's privacy</h2>
+      <p>The app is not specifically designed for children. The developer does not
+        knowingly collect personal information from children.</p>
+    </section>
 
-<p>
-The application may read vehicle diagnostic information through a
-compatible OBD-II adapter. This may include diagnostic trouble codes,
-live sensor values, readiness monitor information, vehicle voltage,
-and other information made available through the OBD-II interface.
-</p>
+    <section>
+      <h2>Disclaimer</h2>
+      <p>VAG Drive Diagnostics is independent and is not affiliated with, endorsed
+        by, or sponsored by Volkswagen AG, Audi AG, or their subsidiaries.
+        Diagnostic information is provided for informational purposes. Consult a
+        qualified automotive technician when necessary.</p>
+    </section>
 
-<p>
-This information is processed for the purpose of displaying vehicle
-diagnostic information and providing diagnostic features to the user.
-</p>
+    <section>
+      <h2>Changes and contact</h2>
+      <p>This policy may change as the app and its privacy practices change.
+        The current version will be available on this page.</p>
+      <p>Privacy questions:
+        <a href="mailto:gogo.rusev31@gmail.com">gogo.rusev31@gmail.com</a>.</p>
+    </section>
+  </main>
 
-<h2>Bluetooth</h2>
-
-<p>
-VAG Drive Diagnostics uses Bluetooth permissions to discover or access
-paired Bluetooth devices and communicate with compatible Bluetooth
-OBD-II adapters.
-</p>
-
-<p>
-Bluetooth access is used only for establishing communication with a
-device selected by the user.
-</p>
-
-<h2>Wi-Fi</h2>
-
-<p>
-The application may communicate with compatible Wi-Fi OBD-II adapters
-over the local network. This connection is used to exchange diagnostic
-commands and vehicle data with the adapter.
-</p>
-
-<h2>Data Storage</h2>
-
-<p>
-Certain diagnostic information, such as fault history or application
-preferences, may be stored locally on the user's device to provide
-application functionality.
-</p>
-
-<h2>Data Sharing</h2>
-
-<p>
-VAG Drive Diagnostics does not sell personal data.
-The application does not intentionally transmit vehicle diagnostic
-data to the developer or to third parties.
-</p>
-
-<p>
-If the user chooses to use the application's sharing functionality,
-diagnostic information may be shared through an application or service
-explicitly selected by the user.
-</p>
-
-<h2>Internet Access</h2>
-
-<p>
-Network access may be used to communicate with Wi-Fi OBD-II adapters
-on the local network. The core diagnostic functionality does not
-require diagnostic data to be uploaded to an external server.
-</p>
-
-<h2>Children's Privacy</h2>
-
-<p>
-VAG Drive Diagnostics is not specifically designed for children.
-The application does not knowingly collect personal information from
-children.
-</p>
-
-<h2>Disclaimer</h2>
-
-<p>
-VAG Drive Diagnostics is an independent application and is not
-affiliated with, endorsed by, or sponsored by Volkswagen AG,
-Audi AG, or their subsidiaries.
-</p>
-
-<p>
-Vehicle and diagnostic information provided by the application is for
-informational purposes. Users should consult a qualified automotive
-technician when necessary.
-</p>
-
-<h2>Changes to This Privacy Policy</h2>
-
-<p>
-This Privacy Policy may be updated when application functionality or
-privacy practices change. The latest version will be available on this
-page.
-</p>
-
-<h2>Contact</h2>
-
-<p>
-For privacy-related questions, contact:
-gogo.rusev31@gmail.com
-</p>
-
+  <footer>
+    <div class="wrap">
+      <span>VAG Drive Diagnostics</span>
+      <a href="/app-ads.txt">app-ads.txt</a>
+    </div>
+  </footer>
 </body>
 </html>
